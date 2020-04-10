@@ -1,14 +1,15 @@
 #include <iostream>
-
 using namespace std;
 
-int main(){
+int main() {
     int a, b;
     cin >> a >> b;
-    if (b == 0){
+
+    if (b == 0) {
         cout << "Impossible" << endl;
-    }else{
+    } else {
         cout << a / b << endl;
     }
+
     return 0;
 }
