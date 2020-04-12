@@ -1,7 +1,7 @@
 #### Create class representing a person ####
 
-*** Interface *** 
-
+#### Interface ####
+```
 class Person {
 public:
   void ChangeFirstName(int year, const string& first_name) {
@@ -16,10 +16,11 @@ public:
 private:
   // private fields
 };
+```
 
 
-*** Usage ***
-
+#### Usage 
+```
 int main() {
   Person person;
   
@@ -41,9 +42,9 @@ int main() {
   
   return 0;
 }
+```
 
-
-*** Output *** 
+#### Output 
 
 Incognito
 Polina with unknown last name

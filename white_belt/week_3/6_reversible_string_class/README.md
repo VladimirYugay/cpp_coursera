@@ -1,8 +1,8 @@
 #### Create class representing a string with reverse and to_string methods ####
 
 
-*** Usage ***
-
+#### Usage ####
+```
 int main() {
   ReversibleString s("live");
   s.Reverse();
@@ -18,8 +18,9 @@ int main() {
   
   return 0;
 }
+```
 
-*** Output *** 
+#### Output #### 
 
 evil
 live

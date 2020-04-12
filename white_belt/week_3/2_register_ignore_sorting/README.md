@@ -2,7 +2,7 @@
 
 Write a function which sorts array by absolute value 
 
-Input: 
+**Input**: 
     N - number of elements
     nums - space separated numbers
 

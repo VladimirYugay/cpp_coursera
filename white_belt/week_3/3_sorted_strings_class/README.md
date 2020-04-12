@@ -1,7 +1,8 @@
 #### Create class keeping sorted strings ####
 
-*** Interface *** 
+#### Interface 
 
+```
 class SortedStrings {
 public:
   void AddString(const string& s) {
@@ -13,10 +14,11 @@ public:
 private:
   // private fields
 };
+```
 
+#### Usage 
 
-*** Usage ***
-
+```
 void PrintSortedStrings(SortedStrings& strings) {
   for (const string& s : strings.GetSortedStrings()) {
     cout << s << " ";
@@ -37,3 +39,4 @@ int main() {
   
   return 0;
 }
+```

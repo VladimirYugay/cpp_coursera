@@ -1,7 +1,7 @@
 #### Define a class which would work with the following usage ####
 
-*** Usage ***
-
+#### Usage ####
+```
 int main() {
   Incognizable a;
   Incognizable b = {};
@@ -9,3 +9,4 @@ int main() {
   Incognizable d = {0, 1};
   return 0;
 }
+```
